@@ -5,7 +5,7 @@ const shema = new Schema(
         name: { type: String },
         occupied: { type: Boolean },
         phone: { type: Number },
-        id: { type: Number, unique: true },
+        count: { type: Number },
     },
     { timestamps: true }
 );

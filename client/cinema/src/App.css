@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--mainColor);
+}
+:root {
+    --mainColor: rgba(14, 38, 72, 1);
+    --cardColor: rgba(12, 81, 182, 1);
+    --cardWhiteColor: white;
+    --cardOccupiedFalseColor: rgba(62, 217, 18, 1);
+    --cardOccupiedTrueColor: rgba(242, 40, 33, 1);
+    --index: calc(1vh + 1vw);
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+}
